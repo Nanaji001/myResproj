@@ -1,0 +1,101 @@
+.flex-fill{
+    flex: auto;
+}
+body, ul, li, p, a, label, input, div{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.info a, .info i {
+    font-size: 10px !important;
+}
+.align-self-center{
+    align-self: center;
+}
+.d-flex-justify-content-between-mx-lg-auto{
+    display: flex; 
+    margin: 0px 97.5px !important;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+}
+a :hover{
+    color:green;
+    text-decoration: none;
+}
+.bg-light{
+    background-color: cornsilk;
+}
+.text-dark{
+    color: #000;
+}
+.container{
+    max-width: 1140px;
+}
+.d-flex{
+    display: flex;
+    padding:  10px;
+}
+.connect:hover{
+    background-color: rgb(18, 61, 18green);
+    color: rgb(80, 72, 72) !important;
+    justify-content: end;
+}
+.connect a, .connect i :hover{
+    font-size: 10px !important;
+    color: grey !important;
+}
+.top-header{
+    background-color: rgb(18, 61, 18);
+    font-size: 20px;
+}
+.row{
+    justify-content: center;
+}
+.footer-link-list a:hover{
+    color: rgb(71, 97, 71)  ;
+    text-decoration: none !important;
+    justify-content: flex-end;
+}
+.text-light-mb-4{
+    justify-content: left;
+}
+.carousel-item{
+    background-color: rgba(211, 211, 211, 0.918);
+}
+.text-light{
+    padding: 0 10px !important;
+    font-size: 10px;
+    
+}
+.justify-content-between{
+    font-size: 10px;
+    padding: 0 10px;    
+}
+.align-items-center{
+    padding: 10 10px;
+}
+.border-light{
+    border-color: #2d343f;
+}
+.d-flex-justify-content-between-mx-lg-auto{
+    margin: 0px 97.5px;
+}
+.row-text-light-mb-4{
+    justify-content: end;
+}

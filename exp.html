@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="new.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'-->
+  <!-- <script src="https://kit.fontawesome.com/b256c692d7.js" crossorigin="anonymous"></script> -->
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <title>dreamscapes</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand navbar-light d-none d-lg-block top-header">
+    <div class="container text-light">
+      <div class="w-100 d-flex justify-content-between">
+        <div class='info'>
+          <i class="fa fa-envelope mx-2"></i>
+          <a class="navbar-sm-brand text-light text-decoration-none" href="#">info@dreamscapes</a>
+          <i class="fa fa-phone mx-2"></i>
+          <a class="navbar-sm-brand text-light text-decoration-none" href="#">08098989898</a>
+        </div>
+        <div class="connect">
+          <a class="text-light" href="#" target="_blank" rel="sponsored">
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a class="text-light" href="#" target="_blank">
+            <i class="fab fa-instagram " aria-hidden="true"></i>
+          </a>
+          <a class="text-light" href="#" target="_blank" rel="sponsored">
+            <i class="fab fa-twitter " aria-hidden="true"></i>
+          </a>
+          <a class="text-light" href="#" target="_blank" rel="sponsored">
+            <i class="fab fa-linkedin " aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="navbar-brand text-success logo h1 align-self-center" href="#">
+        <img src="logo.jpg" style="width: 220px;">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" aria-controls="navbarSuportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between">
+        <div class="flex-fill">
+          <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar align-self-center d-flex">
+          <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="search...">
+              <div class="input-group-text">
+                <i class="fa fa-fw fa-search"></i>
+              </div>
+            </div>
+          </div>
+          <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal">
+            <i class="fa fa-fw fa-search text-dark mr-2">
+
+            </i>
+          </a>
+          <a class="nav-icon position-elative text-decoration-none" href="#">
+            <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1">
+
+            </i>
+            <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"
+              id="cart"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--modal-->
+  <div class="modal fade bg-white" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="w-100 pt-1 mb-5 text-right">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form action="" method="get" class="modal-content modal-body border-0 p-0">
+        <div class="input-group mb-2">
+          <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+          <button type="submit" class="input-group-text bg-success text-light">
+            <i class="fa fa-fw fa-search text-white"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row p-5">
+            <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+              <img class="img-fluid" src="item1.png" alt="costus-spectabilis">
+            </div>
+            <div class="col-lg-6 mb-0 d-flex align-items-center">
+              <div class="text-align-left">
+                <h1 class="h1 text-success"><b>COSTUS SPECTABILIS</b></h1>
+                <p>
+                  Costus spectabilis is an African gregarious species of terrestrial shootless herb, low and perennial.
+                  It can be recognised by its four, sometimes three spreading leaves usually forming a cruciform rosette
+                  flat on the ground, with an inflorescence at the centre producing large yellow astonishingly beautiful
+                  flowers.
+                </p>
+                <p>
+                  Costus spectabilis is edible as it was a snack in some part of Nigeria long ago. It also has numerous
+                  medicinal benefits. Unlike many herbs, it has a fruity taste and can be eaten raw. Today, Nigerians
+                  have used it in making stir fry, salads and smoothies.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- key products -->
+  <section class="container py-5">
+    <div class="row text-center pt-3">
+      <div class="col-lg-6 m-auto">
+        <h1 class="h1">Key Products</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-4 p-5 mt-3">
+        <a href="#"><img src="item1.png" class="rounded-circle img-fluid"></a>
+
+        <p class="text-center"><a href="#" class="btn btn-success text-white" style="margin-top: 20px">Go Shop</a></p>
+      </div>
+      <div class="col-12 col-md-4 p-5 mt-3">
+        <a href="#"><img src="item2.png" class="rounded-circle img-fluid"></a>
+
+        <p class="text-center"><a href="#" class="btn btn-success text-white" style="margin-top: 18px">Go Shop</a></p>
+      </div>
+      <div class="col-12 col-md-4 p-5 mt-3">
+        <a href="#"><img src="third image.png" class="rounded-circle img-fluid"></a>
+
+        <p class="text-center"><a href="#" class="btn btn-success text-white" style="margin-top: 20px">Go Shop</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!--other products-->
+  <section class="bg-light">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-6 m-auto">
+          <h1 class="h1">Featured Product</h1>
+          <p>Here are some other Dreamscape products. All of our products are plant based (organic) and cheifly
+            propagated at Dreamscape gardens where chemical fertilisers and pesticides are prohibited in order to ensure
+            higher quality produce and products.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="#">
+              <img src="snail_slug.jpg" class="card-img-top" alt="snail_slug">
+            </a>
+            <div class="card-body">
+              <a href="#" class="h2 text-decoration-none text-dark">Snail Slug</a>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="#">
+              <img src="herbal_sweetener.jpg" class="card-img-top" alt="herbal_sweetener">
+            </a>
+            <div class="card-body">
+              <a href="#" class="h2 text-decoration-none text-dark">Herbal Sweetner</a>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="#">
+              <img src="costus_tea.jpg" class="card-img-top" alt="costus_tea">
+            </a>
+            <div class="card-body">
+              <a href="#" class="h2 text-decoration-none text-dark">Costus Tea</a>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--twittwr-->
+  <section class="container py-5">
+    <div class="row text-center pt-3">
+      <div class="col-6 m-auto">
+        <h1 class="h1"></h1>
+      </div>
+    </div>
+    <div class="row">
+      <a href="#" style="justify-content: center; display: flex;">
+        <img src="twitter.jpg" class="img-fluid" style="max-width: 100%">
+      </a>
+    </div>
+  </section>
+  <!--footer-->
+
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4 pt-5">
+
+          <img src="logo.jpg" style="width: 200px" />
+          <ul class="list-unstyled text-light footer-link-list">
+            <li>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <a class="text-white" href="#">08089898989</a>
+            </li>
+            <li>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <a class="text-white" href="#">info@dreamscapes</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 pt-5">
+          <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+          <ul class="list-unstyled text-light footer-link-list">
+            <li><a class="text-white" href="#">Costus Spectabilis</a></li>
+            <li><a class="text-white" href="#">Costus Spectabilis Tea</a></li>
+            <li><a class="text-white" href="#">Bouquets</a></li>
+            <li><a class="text-white" href="#">Snail Slug</a></li>
+            <li><a class="text-white" href="#">Cane Tea</a></li>
+            <li><a class="text-white" href="#">Herbal Sweetner</a></li>
+            <li><a class="text-white" href="#">Costus Spectablis Book</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 pt-5">
+          <h2 class="h2 text-light border-bottom pb-3 border-light">Pages</h2>
+          <ul class="list-unstyled text-light footer-link-list">
+            <li><a class="text-white" href="#">Home</a></li>
+            <li><a class="text-white" href="#">About Us</a></li>
+            <li><a class="text-white" href="#">Shop</a></li>
+            <li><a class="text-white" href="#">Gallery</a></li>
+            <li><a class="text-white" href="#">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="row text-light mb-4">
+        <div class="col-12 mb-3">
+          <div class="w-100 my-3 border-top border-light"></div>
+        </div>
+        <div class="footer-icons">
+          <ul class="list-inline footer-icons">
+            <li class="list-inline-item">
+              <a class="text-light-item text white" target="_blank" href="#"><i class="fab fa-facebook fa-2x"
+                  aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item text-center">
+              <a class="text-light-item text white" target="_blank" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            </li>
+            <li class="list-inline-item text white">
+              <a class="text-light-item text white" target="_blank" href="#"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-light-item text white" target="_blank" href="#"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-light-item text white" target="_blank" href="#"><i class="fab fa-linkedin fa-2x"
+                  aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-100 bg-black py-3">
+      <div class="container">
+        <div class="row pt-2">
+          <div class="col-12">
+            <p class="text-left text-light">
+              Copyright &copy; 2021 DreamScape
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+  integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</html>
